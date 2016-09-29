@@ -333,6 +333,10 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 24px;
   margin: 0 auto 40px;
 }
+#testimonial .testimonial-carousel a {
+  color: black;
+  text-decoration: underline !important;
+}
 #testimonial .testimonial-carousel img {
   padding-bottom: 38px;
 }
@@ -387,8 +391,8 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #clients-logo-section .clients-logo-img {
   padding: 0px 5px;
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
 }
 
 .clients-logo-img > img {
