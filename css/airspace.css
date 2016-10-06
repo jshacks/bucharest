@@ -9,6 +9,17 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+@font-face {
+  font-family: 'nasalization';
+  src: url('fonts/nasalization/nasalization.eot');
+  src: url('fonts/nasalization/nasalization.woff2') format('woff2'),
+       url('fonts/nasalization/nasalization.eot?#iefix') format('embedded-opentype'),
+       url('fonts/nasalization/nasalization.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /* var text-decoration */
 /*--
 	Common Css
@@ -70,31 +81,27 @@ a:active {
 /*--
 	Header Start
 --*/
-header {
-  background: #fff;
-  padding: 20px 0;
+.navbar-default {
+    background-color: transparent;
 }
-header .navbar {
-  margin-bottom: 0px;
-  border: 0px;
+.navbar-brand>img {
+  width: 150px;
 }
-header .navbar-brand {
-  padding-top: 5px;
-  height: 75px;
-}
-header .navbar-default {
+.navbar-default {
   background: none;
   border: 0px;
+  padding: 20px;
 }
-header .navbar-default .navbar-nav {
+.navbar-default .navbar-nav {
   padding-top: 20px;
 }
-header .navbar-default .navbar-nav li a {
-  color: #333333;
-  padding: 10px 26px;
+.navbar-default .navbar-nav li a {
+  color: #ffffff;
+  padding: 10px 20px;
   font-size: 15px;
+  font-family: Josefin Sans;
 }
-font header .navbar-default .navbar-nav li a:hover {
+.navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 /*---------------------------------------------
@@ -124,11 +131,12 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block {
   color: #E3E3E4;
+  text-align: center;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: nasalization;
   font-weight: 100;
-  font-size: 45px;
+  font-size: 64px;
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
@@ -139,6 +147,10 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+}
+#slider .block p {
+  font-family: nasalization;
+  font-size: 32px;
 }
 #slider .block a {
   background: #fceb16;
