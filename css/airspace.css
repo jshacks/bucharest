@@ -31,7 +31,7 @@ body {
   color: #ffffff;
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 h1,
 h2,
@@ -83,6 +83,17 @@ a:active {
 .section-title img {
   width: 200px;
 }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+     background-color: transparent; 
+}
+.navbar-default .navbar-toggle {
+     border: none; 
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+
 /*--
 	Header Start
 --*/
@@ -184,6 +195,12 @@ a:active {
 .svg path {
   fill:#ffffff;
 }
+.overlay-stars.stars {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
 
 
 /*---------------------------------------------
@@ -198,6 +215,7 @@ a:active {
   background-position: center;
   padding: 200px 0 280px 0;
   position: relative;
+  height: 100vh;
 }
 #slider:before {
   content: "";
@@ -208,11 +226,10 @@ a:active {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #8b86a3, #322e40);
+  background: linear-gradient(to bottom, #352254, #101b39);
   opacity: 0.8;
 }
 #slider .block {
-  color: #E3E3E4;
   text-align: center;
 }
 #slider .block h1 {
@@ -237,8 +254,14 @@ a:active {
   font-family: nasalization;
   font-size: 32px;
 }
-#slider .block a {
-  
+#slider .block .reg-btn {
+  margin: 30px 0 45px;
+}
+.down-rocket {
+  width: 40px;
+  -ms-transform: rotate(135deg); /* IE 9 */
+    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+    transform: rotate(135deg);
 }
 /*--
 	wrapper Start
@@ -275,6 +298,7 @@ a:active {
 #service .service-item {
   padding-bottom: 30px;
   background-color: #ffffff;
+  margin-bottom: 20px;
 }
 #service .service-item i {
   font-size: 60px;
@@ -289,6 +313,9 @@ a:active {
   padding-top: 10px;
   margin: 0;
   line-height: 1.8;
+}
+#service .service-item img {
+ /* width: 100%;*/
 }
 /*--
 	call-to-action Start
@@ -367,14 +394,14 @@ a:active {
 }
 #feature ul.content-list li {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 20px;
 }
 #feature .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
 }
-#feature img.side-icon {
+#feature .svg.side-icon {
   width: 250px;
 }
 .cta {
