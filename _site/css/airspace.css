@@ -201,7 +201,16 @@ a:active {
   position: absolute;
   z-index: 1;
 }
-
+p.small-title {
+  line-height: 28px;
+  font-weight: 300;
+  font-family: nasalization;
+  font-size: 24px;
+}
+p.xs-title {
+  font-family: nasalization;
+  font-size: 19px;
+}
 
 /*---------------------------------------------
 					Index Start
@@ -425,6 +434,9 @@ a:active {
 #goodies p {
   margin-bottom: 30px;
 }
+#mentors .small-title {
+  margin: 0;
+}
 /*--
 	content Start
 --*/
@@ -468,12 +480,6 @@ a:active {
 }
 #testimonial .testimonial-carousel img {
   padding-bottom: 38px;
-}
-p.small-title {
-  line-height: 28px;
-  font-weight: 300;
-  font-family: nasalization;
-  font-size: 24px;
 }
 #testimonial .testimonial-carousel .user {
   margin: 0 auto 20px;
