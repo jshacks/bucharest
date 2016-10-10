@@ -27,6 +27,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: #101b39;
+  color: #ffffff;
 }
 h1,
 h2,
@@ -58,11 +60,13 @@ a:active,
 a:focus,
 a:active {
   text-decoration: none !important;
+  cursor:pointer;
 }
 .section-title {
   margin-bottom: 70px;
 }
 .section-title h2 {
+  font-family: nasalization;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
@@ -97,7 +101,7 @@ a:active {
 }
 .navbar-default .navbar-nav li a {
   color: #ffffff;
-  padding: 10px;
+  padding: 10px 20px;
   font-size: 15px;
   font-family: Josefin Sans;
 }
@@ -112,7 +116,7 @@ a:active {
   color: #f4aa33;
 }
 .btn-pink {
-  background: #e9467e;
+  background-color: #e9467e;
   color: #ffffff;
   font-family: Josefin Sans;
   border-radius: 5px;
@@ -120,6 +124,17 @@ a:active {
   -moz-border-radius: 5px;
   padding: 15px 10px;
 }
+.btn-pink:hover, .btn-pink:focus {
+  background-color: #ba3864;
+  color: #ffffff;
+}
+
+/*stars bg*/
+.stars {
+  background:url("../img/stars.png") repeat top center;
+  z-index:0;
+}
+
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -160,7 +175,6 @@ a:active {
   font-size: 23px;
   line-height: 40px;
   font-weight: 300;
-  letter-spacing: 3px;
 }
 #slider .block h3 {
   font-family: Josefin Sans;
@@ -279,7 +293,6 @@ a:active {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -297,11 +310,9 @@ a:active {
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
   margin-bottom: 20px;
 }
 #feature ul.content-list {
-  color: #8d8f92;
   list-style: circle;
   margin: 20px 0 0 50px;
 }
@@ -841,7 +852,7 @@ a:active {
 	footer Start
 --*/
 footer {
-  background: #F5F5F5;
+  background: #101b39;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
@@ -852,23 +863,23 @@ footer p {
   color: #919191;
 }
 footer a {
-  color: #595959;
+  color: #ffffff;
 }
-footer .footer-manu {
+footer .footer-menu {
   padding-bottom: 25px;
 }
-footer .footer-manu ul {
+footer .footer-menu ul {
   margin: 0px;
   padding: 0px;
 }
-footer .footer-manu ul li {
+footer .footer-menu ul li {
   display: inline-block;
   padding: 0px 20px;
 }
-footer .footer-manu ul li a {
+footer .footer-menu ul li a {
   display: inline-block;
-  color: #494949;
+  color: #ffffff;
 }
-footer .footer-manu ul li a:hover {
+footer .footer-menu ul li a:hover {
   color: #000;
 }
