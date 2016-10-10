@@ -116,6 +116,9 @@ a:active {
 .text-blue {
   color: #3faafb;
 }
+.text-turquoise {
+  color: #78f8e4;
+}
 .text-orange {
   color: #f4aa33;
 }
@@ -129,7 +132,24 @@ a:active {
   color: #a5f312;
 }
 
-
+.svg.svg-blue path {
+  fill: #3faafb;
+}
+.svg.svg-turqoise path {
+  fill: #78f8e4;
+}
+.svg.svg-orange path {
+  fill: #f4aa33;
+}
+.svg.svg-pink path {
+  fill: #e9467e;
+}
+.svg.svg-purple path {
+  fill: #ad5fff;
+}
+.svg.svg-green path {
+  fill: #a5f312;
+}
 
 .btn-pink {
   background-color: #e9467e;
@@ -350,17 +370,22 @@ a:active {
 .cta {
   margin-top: 64px;
 }
-.cta .list-icon.svg {
+.cta .svg {
   width: 30px;
   margin-right: 10px;
 }
-.cta .list-icon.svg path {
-  fill: #e9467e;
-}
-
 .cta p {
   display: inline-block;
   font-size: 24px;
+}
+
+#goodies .svg {
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
+}
+#goodies p {
+  margin-bottom: 30px;
 }
 /*--
 	content Start
