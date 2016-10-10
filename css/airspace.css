@@ -545,6 +545,12 @@ p.xs-title {
 .clients-logo-img img {
   width: 100%;
 }
+
+.partners-logo {
+  background-color: white;
+  opacity: .9;
+  border-radius: 20px;
+}
 /*---------------------------------------------
 					Work Start
 -----------------------------------------------*/
