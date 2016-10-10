@@ -118,7 +118,7 @@ a:active {
   font-family: Josefin Sans;
 }
 .navbar-default .navbar-nav li a:hover {
-  color: #000;
+  color: #a5f312;
 }
 
 /*neons*/
@@ -256,6 +256,7 @@ a:active {
 }
 #slider .block .reg-btn {
   margin: 30px 0 45px;
+  z-index: 1991;
 }
 .down-rocket {
   width: 40px;
