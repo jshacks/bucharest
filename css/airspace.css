@@ -84,10 +84,10 @@ a:active {
   width: 200px;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-     background-color: transparent; 
+     background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-     border: none; 
+     border: none;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffffff;
@@ -312,6 +312,10 @@ p.xs-title {
   padding-bottom: 30px;
   background-color: #ffffff;
   margin-bottom: 20px;
+  height: 200px;
+  line-height: 200px;
+  opacity: .9;
+  border-radius: 20px;
 }
 #service .service-item i {
   font-size: 60px;
@@ -328,7 +332,8 @@ p.xs-title {
   line-height: 1.8;
 }
 #service .service-item img {
- /* width: 100%;*/
+  max-width: 100%;
+  max-height: 100%;
 }
 /*--
 	call-to-action Start
