@@ -25,7 +25,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Josefin Sans;
   -webkit-font-smoothing: antialiased;
   background-color: #101b39;
   color: #ffffff;
@@ -82,6 +82,9 @@ a:active {
   font-size: 16px;
   letter-spacing: normal;
 }
+.section-title img {
+  width: 200px;
+}
 /*--
 	Header Start
 --*/
@@ -109,12 +112,25 @@ a:active {
   color: #000;
 }
 
+/*neons*/
 .text-blue {
   color: #3faafb;
 }
 .text-orange {
   color: #f4aa33;
 }
+.text-pink {
+  color: #e9467e;
+}
+.text-purple {
+  color: #ad5fff;
+}
+.text-green {
+  color: #a5f312;
+}
+
+
+
 .btn-pink {
   background-color: #e9467e;
   color: #ffffff;
@@ -134,6 +150,10 @@ a:active {
   background:url("../img/stars.png") repeat top center;
   z-index:0;
 }
+.svg path {
+  fill:#ffffff;
+}
+
 
 /*---------------------------------------------
 					Index Start
@@ -307,7 +327,6 @@ a:active {
 #feature h2 {
   font-size: 28px;
   font-weight: 600;
-  margin-bottom: 30px;
 }
 #feature p {
   margin-bottom: 20px;
@@ -325,7 +344,24 @@ a:active {
   color: #fff;
   padding: 10px 20px;
 }
+#feature img.side-icon {
+  width: 250px;
+}
+.cta {
+  margin-top: 64px;
+}
+.cta .list-icon.svg {
+  width: 30px;
+  margin-right: 10px;
+}
+.cta .list-icon.svg path {
+  fill: #e9467e;
+}
 
+.cta p {
+  display: inline-block;
+  font-size: 24px;
+}
 /*--
 	content Start
 --*/
@@ -360,7 +396,6 @@ a:active {
 #testimonial .testimonial-carousel {
   text-align: center;
   width: 75%;
-  border: 1px solid #DEDEDE;
   padding: 24px;
   margin: 0 auto 40px;
 }
@@ -371,10 +406,11 @@ a:active {
 #testimonial .testimonial-carousel img {
   padding-bottom: 38px;
 }
-#testimonial .testimonial-carousel p {
+p.small-title {
   line-height: 28px;
   font-weight: 300;
-  padding-bottom: 20px;
+  font-family: nasalization;
+  font-size: 24px;
 }
 #testimonial .testimonial-carousel .user {
   margin: 0 auto 20px;
