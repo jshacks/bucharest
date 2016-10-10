@@ -30,6 +30,9 @@ body {
   background-color: #101b39;
   color: #ffffff;
 }
+section {
+  padding: 100px 0;
+}
 h1,
 h2,
 h3,
@@ -70,11 +73,6 @@ a:active {
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
-}
-.section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
-  color: #666;
 }
 .section-title a {
   font-family: 'Volkhov', serif;
@@ -165,6 +163,19 @@ a:active {
   color: #ffffff;
 }
 
+.btn-orange {
+  background-color: #f4aa33;
+  color: #ffffff;
+  font-family: Josefin Sans;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 15px 10px;
+}
+.btn-orange:hover, .btn-orange:focus {
+  background-color: #db992d;
+  color: #ffffff;
+}
 /*stars bg*/
 .stars {
   background:url("../img/stars.png") repeat top center;
@@ -263,6 +274,7 @@ a:active {
 }
 #service .service-item {
   padding-bottom: 30px;
+  background-color: #ffffff;
 }
 #service .service-item i {
   font-size: 60px;
@@ -274,10 +286,8 @@ a:active {
   color: #666;
 }
 #service .service-item p {
-  color: #888;
   padding-top: 10px;
   margin: 0;
-  font-size: 14px;
   line-height: 1.8;
 }
 /*--
@@ -914,33 +924,23 @@ p.small-title {
 --*/
 footer {
   background: #101b39;
-  text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
-}
-footer p {
-  font-size: 13px;
-  line-height: 25px;
-  color: #919191;
+  padding: 30px 0;
 }
 footer a {
   color: #ffffff;
 }
-footer .footer-menu {
-  padding-bottom: 25px;
-}
-footer .footer-menu ul {
+footer  ul {
   margin: 0px;
   padding: 0px;
 }
-footer .footer-menu ul li {
+footer  ul li {
   display: inline-block;
   padding: 0px 20px;
 }
-footer .footer-menu ul li a {
+footer  ul li a {
   display: inline-block;
   color: #ffffff;
 }
-footer .footer-menu ul li a:hover {
-  color: #000;
+footer ul li a:hover {
+  color: #78f8e4;
 }
