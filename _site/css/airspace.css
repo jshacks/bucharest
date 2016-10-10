@@ -97,12 +97,28 @@ a:active {
 }
 .navbar-default .navbar-nav li a {
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 10px;
   font-size: 15px;
   font-family: Josefin Sans;
 }
 .navbar-default .navbar-nav li a:hover {
   color: #000;
+}
+
+.text-blue {
+  color: #3faafb;
+}
+.text-orange {
+  color: #f4aa33;
+}
+.btn-pink {
+  background: #e9467e;
+  color: #ffffff;
+  font-family: Josefin Sans;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 15px 10px;
 }
 /*---------------------------------------------
 					Index Start
@@ -139,30 +155,25 @@ a:active {
   font-size: 64px;
   line-height: 60px;
   letter-spacing: 10px;
-  padding-bottom: 45px;
 }
 #slider .block p,a {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+}
+#slider .block h3 {
+  font-family: Josefin Sans;
+}
+#slider .block h3:last-child {
+  padding-bottom: 45px;
 }
 #slider .block p {
   font-family: nasalization;
   font-size: 32px;
 }
 #slider .block a {
-  background: #fceb16;
-  display: inline-block;
-  padding: 10px;
-  color: #5b5b5b;
-  font-weight: bolder;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  
 }
 /*--
 	wrapper Start
@@ -261,8 +272,6 @@ a:active {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
-  background-position: 50% 94px;
   width: 100%;
   display: block;
   position: relative;
