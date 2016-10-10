@@ -475,8 +475,9 @@ p.xs-title {
   margin: 0 auto 40px;
 }
 #testimonial .testimonial-carousel a {
-  color: black;
-  text-decoration: underline !important;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: nasalization;
 }
 #testimonial .testimonial-carousel img {
   padding-bottom: 38px;
@@ -541,7 +542,6 @@ p.xs-title {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -557,8 +557,8 @@ p.xs-title {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  /*background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.8;*/
 }
 #global-header .block {
   color: #E3E3E4;
