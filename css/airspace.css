@@ -211,7 +211,9 @@ p.xs-title {
   font-family: nasalization;
   font-size: 19px;
 }
-
+.m-b-5 {
+  margin-bottom: 50px;
+}
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -272,6 +274,7 @@ p.xs-title {
   -ms-transform: rotate(135deg); /* IE 9 */
     -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
     transform: rotate(135deg);
+  z-index: 1991;
 }
 /*--
 	wrapper Start
@@ -433,6 +436,9 @@ p.xs-title {
 }
 #goodies p {
   margin-bottom: 30px;
+}
+#workshops .svg {
+  width: 150px;
 }
 #mentors .small-title {
   margin: 0;

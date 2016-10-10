@@ -211,7 +211,9 @@ p.xs-title {
   font-family: nasalization;
   font-size: 19px;
 }
-
+.m-b-5 {
+  margin-bottom: 50px;
+}
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -272,6 +274,7 @@ p.xs-title {
   -ms-transform: rotate(135deg); /* IE 9 */
     -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
     transform: rotate(135deg);
+  z-index: 1991;
 }
 /*--
 	wrapper Start
@@ -434,6 +437,9 @@ p.xs-title {
 #goodies p {
   margin-bottom: 30px;
 }
+#workshops .svg {
+  width: 150px;
+}
 #mentors .small-title {
   margin: 0;
 }
@@ -477,7 +483,6 @@ p.xs-title {
 #testimonial .testimonial-carousel a {
   color: #ffffff;
   text-decoration: none;
-  font-family: nasalization;
 }
 #testimonial .testimonial-carousel img {
   padding-bottom: 38px;
@@ -522,18 +527,17 @@ p.xs-title {
 /*--
 	features Start
 --*/
-#communities {
+#clients-logo-section {
   padding-top: 30px;
   padding-bottom: 75px;
 }
-#communities .logo-img {
+#clients-logo-section .clients-logo-img {
   padding: 0px 5px;
   width: 120px;
   height: 120px;
-  margin: 20px auto;
 }
 
-.logo-img img {
+.clients-logo-img img {
   width: 100%;
 }
 /*---------------------------------------------
