@@ -13,10 +13,10 @@
 
 @font-face {
   font-family: 'nasalization';
-  src: url('fonts/nasalization/nasalization.eot');
-  src: url('fonts/nasalization/nasalization.woff2') format('woff2'),
-       url('fonts/nasalization/nasalization.eot?#iefix') format('embedded-opentype'),
-       url('fonts/nasalization/nasalization.woff') format('woff');
+  src: url('/fonts/nasalization/nasalization.eot');
+  src: url('/fonts/nasalization/nasalization.woff2') format('woff2'),
+       url('/fonts/nasalization/nasalization.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/nasalization/nasalization.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
