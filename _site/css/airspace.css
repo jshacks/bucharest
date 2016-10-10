@@ -522,17 +522,18 @@ p.xs-title {
 /*--
 	features Start
 --*/
-#clients-logo-section {
+#communities {
   padding-top: 30px;
   padding-bottom: 75px;
 }
-#clients-logo-section .clients-logo-img {
+#communities .logo-img {
   padding: 0px 5px;
   width: 120px;
   height: 120px;
+  margin: 20px auto;
 }
 
-.clients-logo-img img {
+.logo-img img {
   width: 100%;
 }
 /*---------------------------------------------
