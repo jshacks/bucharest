@@ -1008,3 +1008,7 @@ footer ul li a:hover {
 #agenda {
   padding: 90px 0;
 }
+
+.description {
+  font-size: 18px;
+}
