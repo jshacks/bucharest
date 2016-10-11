@@ -2,19 +2,22 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
 		var alpha = scroll > 125 ? 1: scroll/125;
-		console.log(alpha);
 		$('.navbarhome').css('background-color','rgba(16,27,57,' + alpha + ')');
 	})
 
 	$("#portfolio-contant-active").mixItUp();
 
 	function doScroll(event, element, target) {
-		console.log(event, element, target);
 		event.preventDefault();
 		element.blur();
 		$('html, body').animate({
         scrollTop: $(target).offset().top
     }, 500);
+		var toggleButton = $('#menu-toggle');
+		if(toggleButton.css('display') != 'none') {
+			$('#menu-toggle').click();
+		}
+
 	}
 
 	$('[href="#challenges"]').click(function(e){

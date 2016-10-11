@@ -1012,3 +1012,13 @@ footer ul li a:hover {
 .description {
   font-size: 18px;
 }
+
+@media (max-width: 750px) {
+  .navbar-collapse {
+    margin-top: 30px;
+  }
+
+  .navbarhome {
+    background-color: #101B39;
+  }
+}
