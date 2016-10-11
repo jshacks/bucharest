@@ -38,6 +38,7 @@ $(document).ready(function(){
 	$('[href="/#contact"]').click(function(e){
 		doScroll(e, $(this), "#register")
 	})
+	
 
 	/*$("#testimonial-slider").owlCarousel({
 	    paginationSpeed : 500,

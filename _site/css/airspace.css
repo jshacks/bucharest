@@ -196,7 +196,7 @@ a:active {
   fill:#ffffff;
 }
 .overlay-stars.stars {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: absolute;
   z-index: 1;
@@ -380,7 +380,7 @@ p.xs-title {
 /*--
 	Feature Start
 --*/
-#feature {
+#challenges {
   width: 100%;
   display: block;
   position: relative;
@@ -399,27 +399,27 @@ p.xs-title {
   backface-visibility: hidden;
   padding: 100px 0;
 }
-#feature h2 {
+#challenges h2 {
   font-size: 28px;
   font-weight: 600;
 }
-#feature p {
+#challenges p {
   margin-bottom: 20px;
 }
-#feature ul.content-list {
+#challenges ul.content-list {
   list-style: circle;
   margin: 20px 0 0 50px;
 }
-#feature ul.content-list li {
+#challenges ul.content-list li {
   margin-bottom: 20px;
   font-size: 20px;
 }
-#feature .btn-view-works {
+#challenges .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
 }
-#feature .svg.side-icon {
+#challenges .svg.side-icon {
   width: 250px;
 }
 .cta {
