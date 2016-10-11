@@ -21,7 +21,7 @@ $(document).ready(function(){
 	}
 
 	$('[href="/#challenges"]').click(function(e){
-		doScroll(e, $(this), "#feature")
+		doScroll(e, $(this), "#challenges")
 	});
 	$('[href="/#agenda"]').click(function(e){
 		doScroll(e, $(this), "#agenda")
@@ -34,6 +34,9 @@ $(document).ready(function(){
 	})
 	$('[href="/#sponsors"]').click(function(e){
 		doScroll(e, $(this), "#service")
+	})
+	$('[href="/#contact"]').click(function(e){
+		doScroll(e, $(this), "#register")
 	})
 
 	/*$("#testimonial-slider").owlCarousel({
