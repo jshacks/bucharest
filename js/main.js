@@ -20,19 +20,19 @@ $(document).ready(function(){
 
 	}
 
-	$('[href="#challenges"]').click(function(e){
+	$('[href="/#challenges"]').click(function(e){
 		doScroll(e, $(this), "#feature")
 	});
-	$('[href="#agenda"]').click(function(e){
+	$('[href="/#agenda"]').click(function(e){
 		doScroll(e, $(this), "#agenda")
 	})
-	$('[href="#special_guests"]').click(function(e){
+	$('[href="/#special_guests"]').click(function(e){
 		doScroll(e, $(this), "#testimonial")
 	})
-	$('[href="#mentors"]').click(function(e){
+	$('[href="/#mentors"]').click(function(e){
 		doScroll(e, $(this), "#mentors")
 	})
-	$('[href="#sponsors"]').click(function(e){
+	$('[href="/#sponsors"]').click(function(e){
 		doScroll(e, $(this), "#service")
 	})
 
