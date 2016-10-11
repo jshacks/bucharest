@@ -13,10 +13,10 @@
 
 @font-face {
   font-family: 'nasalization';
-  src: url('fonts/nasalization/nasalization.eot');
-  src: url('fonts/nasalization/nasalization.woff2') format('woff2'),
-       url('fonts/nasalization/nasalization.eot?#iefix') format('embedded-opentype'),
-       url('fonts/nasalization/nasalization.woff') format('woff');
+  src: url('/fonts/nasalization/nasalization.eot');
+  src: url('/fonts/nasalization/nasalization.woff2') format('woff2'),
+       url('/fonts/nasalization/nasalization.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/nasalization/nasalization.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -84,10 +84,10 @@ a:active {
   width: 200px;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-     background-color: transparent; 
+     background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-     border: none; 
+     border: none;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffffff;
@@ -114,7 +114,7 @@ a:active {
 .navbar-default .navbar-nav li a {
   color: #ffffff;
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 18px;
   font-family: Josefin Sans;
 }
 .navbar-default .navbar-nav li a:hover {
@@ -267,7 +267,7 @@ p.xs-title {
 }
 #slider .block .reg-btn {
   margin: 30px 0 45px;
-  z-index: 1991;
+  /*z-index: 1991;*/
 }
 .down-rocket {
   width: 40px;
@@ -312,6 +312,10 @@ p.xs-title {
   padding-bottom: 30px;
   background-color: #ffffff;
   margin-bottom: 20px;
+  height: 200px;
+  line-height: 200px;
+  opacity: .9;
+  border-radius: 20px;
 }
 #service .service-item i {
   font-size: 60px;
@@ -328,7 +332,8 @@ p.xs-title {
   line-height: 1.8;
 }
 #service .service-item img {
- /* width: 100%;*/
+  max-width: 100%;
+  max-height: 100%;
 }
 /*--
 	call-to-action Start
@@ -380,7 +385,7 @@ p.xs-title {
   display: block;
   position: relative;
   overflow: visible;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -443,6 +448,14 @@ p.xs-title {
 #mentors .small-title {
   margin: 0;
 }
+
+#mentors {
+  padding: 90px 0;
+}
+
+#mentors .row {
+  padding-bottom: 40px;
+}
 /*--
 	content Start
 --*/
@@ -451,6 +464,7 @@ p.xs-title {
 }
 #testimonial .block h2 {
   line-height: 27px;
+  color: #5C5C5C;
   padding-top: 110px;
 }
 #testimonial .block p {
@@ -538,6 +552,13 @@ p.xs-title {
 
 .clients-logo-img img {
   width: 100%;
+}
+
+.partners-logo {
+  background-color: white;
+  opacity: .9;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 /*---------------------------------------------
 					Work Start
@@ -981,4 +1002,23 @@ footer  ul li a {
 }
 footer ul li a:hover {
   color: #78f8e4;
+}
+
+
+#agenda {
+  padding: 90px 0;
+}
+
+.description {
+  font-size: 18px;
+}
+
+@media (max-width: 750px) {
+  .navbar-collapse {
+    margin-top: 30px;
+  }
+
+  .navbarhome {
+    background-color: #101B39;
+  }
 }

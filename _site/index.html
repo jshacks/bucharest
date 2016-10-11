@@ -45,9 +45,10 @@
     <!-- Header Start -->
 <!-- header Nav Start -->
 <nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbarhome" role="navigation">
-    <div class="container">
+  <div class="container">
     <div class="navbar-header">
-        <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+        <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> -->
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar bar1"></span>
             <span class="icon-bar bar2"></span>
@@ -73,7 +74,6 @@
     <!-- /.navbar-collapse -->
   </div>
 </nav>
-
 
 
 
@@ -110,15 +110,14 @@
 </section>
 
 <section id="feature" class="stars">
-<div class="container twinkling">
+<div class="container">
   <div class="row">
-    <a name="challenges"></a>
-     <div class="row">
       <div class="section-title text-center">
-        <h2>OPEN DATA CHALLENGES</h2>
+        <h2>OPEN DATA CHALLANGES</h2>
         <img src="/img/rocket.png">
       </div>
-    </div>
+  </div>
+
     <div class="col-md-8">
       <p>This edition's theme is “Open Data” and we're getting together to solve challenges such as:</p>
       <ul class="content-list">
@@ -128,7 +127,7 @@
         <li>Access to anonymous medical data</li>
         <li>Using APIs for notifications in emergency cases (earthquakes, floods, snow storms, etc.)</li>
       </ul>
-      
+
     </div>
     <div class="col-md-4 text-right">
       <img class="side-icon svg" src="/img/icons/astronaut.svg">
@@ -137,7 +136,6 @@
       <img class="svg svg-pink" src="/img/icons/science.svg">
       <p class="text-pink">Have your own challenge you want to hack? Join us and let's build a solution together! </p>
     </div>
-  </div>
 </div>
 
 </section>
@@ -146,37 +144,36 @@
 <section id="agenda" class="stars">
 <div class="container">
   <div class="row">
-    <a name="challenges"></a>
-     <div class="row">
       <div class="section-title text-center">
         <h2>JS HACKS AGENDA</h2>
         <img src="/img/rocket.png">
       </div>
-    </div>
-    <div class="row text-center">
-      <div class="col-md-4">
+  </div>
+  <div class="row">
+    <!-- <div class="row text-center"> -->
+      <div class="col-md-4" style="margin-bottom:20px;">
         <p class="small-title">Friday</p>
         <p>21st of October</p>
 
         <div class="row">
-          <div class="col-md-4 text-right">10 am</div>
-          <div class="col-md-8">Something awesome</div>
+          <div class="col-md-2 col-xs-3 text-right">10 am</div>
+          <div class="col-md-8 col-xs-8">Something awesome</div>
         </div>
         <div class="row">
-          <div class="col-md-4 text-right">12 am</div>
-          <div class="col-md-8">Something awesome</div>
+          <div class="col-md-2 col-xs-3 text-right">12 am</div>
+          <div class="col-md-8 col-xs-8">Something awesome</div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" style="margin-bottom:20px;">
         <p class="small-title">Saturday</p>
         <p>22nd of October</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" style="margin-bottom:20px;">
         <p class="small-title">Sunday</p>
         <p>23rd of October</p>
       </div>
-      
-    </div>
+
+    <!-- </div> -->
   </div>
 </div>
 </section>
@@ -220,7 +217,7 @@
     </div>
   </div>
   <!-- end wsh two -->
-    
+
 </div>
 </section>
 
@@ -245,7 +242,7 @@
       <div class="col-md-4 col-sm-6">
         <img class="svg svg-blue" src="/img/icons/drinks.svg">
         <p><strong>DRINKS</strong></p>
-      </div>  
+      </div>
       <div class="col-md-4 col-sm-6">
         <img class="svg svg-green" src="/img/icons/network.svg">
         <p><strong>NETWORKING</strong></p>
@@ -257,7 +254,7 @@
       <div class="col-md-4 col-sm-6">
         <img class="svg svg-pink" src="/img/icons/rocket.svg">
         <p><strong>WORKSHOPS</strong></p>
-      </div>      
+      </div>
     </div>
 </div>
 </section>
@@ -314,12 +311,12 @@
       <!-- mentor -->
       <div class="col-md-6">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3 col-md-offset-1 col-xs-5 col-xs-offset-1">
             <div class="user">
               <img src="/img/Andrei-Pitis.png" alt="">
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 col-xs-6">
             <p class="small-title"><strong>Mentor one</strong></p>
             <p class="xs-title">Title one</p>
             <p>Mentor skills short description</p>
@@ -330,12 +327,12 @@
       <!-- mentor -->
       <div class="col-md-6">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3 col-md-offset-1 col-xs-5 col-xs-offset-1">
             <div class="user">
               <img src="/img/Andrei-Pitis.png" alt="">
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 col-xs-6">
             <p class="small-title"><strong>Mentor two</strong></p>
             <p class="xs-title">Title two</p>
             <p>Mentor skills short description</p>
@@ -344,10 +341,111 @@
       </div>
       <!-- end mentor -->
   </div>
-
+  <div class="row">
+    <!-- mentor -->
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-xs-5 col-xs-offset-1">
+          <div class="user">
+            <img src="/img/Andrei-Pitis.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-8 col-xs-6">
+          <p class="small-title"><strong>Mentor one</strong></p>
+          <p class="xs-title">Title one</p>
+          <p>Mentor skills short description</p>
+        </div>
+      </div>
+    </div>
+    <!-- end mentor -->
+    <!-- mentor -->
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-xs-5 col-xs-offset-1">
+          <div class="user">
+            <img src="/img/Andrei-Pitis.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-8 col-xs-6">
+          <p class="small-title"><strong>Mentor two</strong></p>
+          <p class="xs-title">Title two</p>
+          <p>Mentor skills short description</p>
+        </div>
+      </div>
+    </div>
+    <!-- end mentor -->
+</div>
+<div class="row">
+  <!-- mentor -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-3 col-md-offset-1 col-xs-5 col-xs-offset-1">
+        <div class="user">
+          <img src="/img/Andrei-Pitis.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-8 col-xs-6">
+        <p class="small-title"><strong>Mentor one</strong></p>
+        <p class="xs-title">Title one</p>
+        <p>Mentor skills short description</p>
+      </div>
+    </div>
+  </div>
+  <!-- end mentor -->
+  <!-- mentor -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-3 col-md-offset-1 col-xs-5 col-xs-offset-1">
+        <div class="user">
+          <img src="/img/Andrei-Pitis.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-8 col-xs-6">
+        <p class="small-title"><strong>Mentor two</strong></p>
+        <p class="xs-title">Title two</p>
+        <p>Mentor skills short description</p>
+      </div>
+    </div>
+  </div>
+  <!-- end mentor -->
+</div>
+<div class="row">
+  <!-- mentor -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-3 col-md-offset-1 col-xs-5 col-xs-offset-1">
+        <div class="user">
+          <img src="/img/Andrei-Pitis.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-8 col-xs-6">
+        <p class="small-title"><strong>Mentor one</strong></p>
+        <p class="xs-title">Title one</p>
+        <p>Mentor skills short description</p>
+      </div>
+    </div>
+  </div>
+  <!-- end mentor -->
+  <!-- mentor -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-3 col-md-offset-1 col-xs-5 col-xs-offset-1">
+        <div class="user">
+          <img src="/img/Andrei-Pitis.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-8 col-xs-6">
+        <p class="small-title"><strong>Mentor two</strong></p>
+        <p class="xs-title">Title two</p>
+        <p>Mentor skills short description</p>
+      </div>
+    </div>
+  </div>
+  <!-- end mentor -->
+</div>
 
  <!--  second design example-->
- <div class="row text-center">
+ <!-- <div class="row text-center">
   <div class="col-md-3">
     <div class="testimonial-carousel">
       <div>
@@ -396,7 +494,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 
@@ -417,7 +515,7 @@
     <div class="row">
       <div class="col-md-4 col-sm-4">
         <p class="small-title">PLATINUM Sponsor</p>
-        <div class="service-item">        
+        <div class="service-item">
           <a href="http://www.everymatrix.com" target="_blank">
           <img src="/img/logos/everymatrix-logo.png" alt="EveryMatrix" />
           </a>
@@ -458,24 +556,32 @@
     </div>
     <div class="row text-center">
       <div class="col-md-3 col-sm-6">
-        <a href="http://ithub.gov.ro/" target="_blank">
-          <img src="/img/logos/govithub-logo.png" alt="GovITHub">
-        </a>
+        <div class="partners-logo">
+          <a href="http://ithub.gov.ro/" target="_blank">
+            <img src="/img/logos/govithub-logo.png" alt="GovITHub">
+          </a>
+        </div>
       </div>
       <div class="col-md-3 col-sm-6">
-        <a href="http://www.code4.ro" target="_blank">
-          <img src="/img/logos/code4romania-logo.jpg" alt="Code4Romania">
-        </a>
+        <div class="partners-logo">
+          <a href="http://www.code4.ro" target="_blank">
+            <img src="/img/logos/code4romania-logo.jpg" alt="Code4Romania">
+          </a>
+        </div>
       </div>
       <div class="col-md-3 col-sm-6">
-        <a href="http://2016.howtoweb.co/" target="_blank">
-          <img src="/img/logos/howtoweb-logo.png" alt="How To Web">
-        </a>
+        <div class="partners-logo">
+          <a href="http://2016.howtoweb.co/" target="_blank">
+            <img src="/img/logos/howtoweb-logo.png" alt="How To Web">
+          </a>
+        </div>
       </div>
       <div class="col-md-3 col-sm-6">
-        <a href="https://bucharest.techhub.com/" target="_blank">
-          <img src="/img/logos/techhub-logo.png" alt="TechHub">
-        </a>
+        <div class="partners-logo">
+          <a href="https://bucharest.techhub.com/" target="_blank">
+            <img src="/img/logos/techhub-logo.png" alt="TechHub">
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -497,6 +603,7 @@
     </div>
   </div>
 </section>
+
 
 
 

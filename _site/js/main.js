@@ -1,11 +1,43 @@
 $(document).ready(function(){
-
+	$(window).scroll(function(){
+		var scroll = $(window).scrollTop();
+		var alpha = scroll > 125 ? 1: scroll/125;
+		$('.navbarhome').css('background-color','rgba(16,27,57,' + alpha + ')');
+	})
 
 	$("#portfolio-contant-active").mixItUp();
 
+	function doScroll(event, element, target) {
+		event.preventDefault();
+		element.blur();
+		$('html, body').animate({
+        scrollTop: $(target).offset().top
+    }, 500);
+		var toggleButton = $('#menu-toggle');
+		if(toggleButton.css('display') != 'none') {
+			$('#menu-toggle').click();
+		}
+
+	}
+
+	$('[href="#challenges"]').click(function(e){
+		doScroll(e, $(this), "#feature")
+	});
+	$('[href="#agenda"]').click(function(e){
+		doScroll(e, $(this), "#agenda")
+	})
+	$('[href="#special_guests"]').click(function(e){
+		doScroll(e, $(this), "#testimonial")
+	})
+	$('[href="#mentors"]').click(function(e){
+		doScroll(e, $(this), "#mentors")
+	})
+	$('[href="#sponsors"]').click(function(e){
+		doScroll(e, $(this), "#service")
+	})
 
 	/*$("#testimonial-slider").owlCarousel({
-	    paginationSpeed : 500,      
+	    paginationSpeed : 500,
 	    singleItem:true,
 	    autoPlay: 3000,
 	});*/
@@ -84,7 +116,3 @@ jQuery('img.svg').each(function(){
 
 
 });
-
-
-
-
