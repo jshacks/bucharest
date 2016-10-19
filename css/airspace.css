@@ -452,6 +452,11 @@ p.xs-title {
 #mentors {
   padding: 90px 0;
 }
+#mentors .user {
+  width: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 #mentors .row {
   padding-bottom: 40px;
